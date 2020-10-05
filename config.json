@@ -1,0 +1,48 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "editor.parameterHints.enabled": true,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "settingsSync.ignoredExtensions": [
+    "CoenraadS.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "ricardo-emerson.create-react-tsx-component",
+    "ms-azuretools.vscode-docker",
+    "dracula-theme.theme-dracula",
+    "editorconfig.editorconfig",
+    "dsznajder.es7-react-js-snippets",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "ricardo-emerson.react-development-extensions-pack",
+    "rocketseat.rocketseatreactnative",
+    "rocketseat.rocketseatreactjs",
+    "jpoissonnier.vscode-styled-components"
+  ]
+}
