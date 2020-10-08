@@ -43,6 +43,7 @@
     "ricardo-emerson.react-development-extensions-pack",
     "rocketseat.rocketseatreactnative",
     "rocketseat.rocketseatreactjs",
-    "jpoissonnier.vscode-styled-components"
+    "jpoissonnier.vscode-styled-components",
+    "ritwickdey.liveserver"
   ]
 }
