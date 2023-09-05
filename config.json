@@ -1,12 +1,14 @@
 {
   "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
   "git.autofetch": true,
-  "workbench.colorTheme": "Dracula",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.rulers": [80, 120],
+  "editor.lineHeight": 24,
   "editor.renderLineHighlight": "gutter",
   "editor.tabSize": 2,
   "terminal.integrated.fontSize": 14,
@@ -16,32 +18,108 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.parameterHints.enabled": true,
   "breadcrumbs.enabled": true,
   "javascript.suggest.autoImports": true,
-  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80, 120],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
   },
-  "settingsSync.ignoredExtensions": [
-    "CoenraadS.bracket-pair-colorizer-2",
-    "streetsidesoftware.code-spell-checker",
-    "naumovs.color-highlight",
-    "ms-azuretools.vscode-docker",
-    "dracula-theme.theme-dracula",
-    "editorconfig.editorconfig",
-    "dsznajder.es7-react-js-snippets",
-    "dbaeumer.vscode-eslint",
-    "eamodio.gitlens",
-    "pkief.material-icon-theme",
-    "esbenp.prettier-vscode",
-    "rocketseat.rocketseatreactnative",
-    "rocketseat.rocketseatreactjs",
-    "jpoissonnier.vscode-styled-components",
-    "ritwickdey.liveserver"
-  ]
+  "dart.previewFlutterUiGuides": true,
+  "dart.openDevTools": "flutter",
+  "editor.suggestSelection": "first",
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "git.confirmSync": false,
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "redhat.telemetry.enabled": true,
+  "git.enableSmartCommit": true,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/abeldutra/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\abelo.DESKTOP-AJ0UO4C\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\abelo.DESKTOP-AJ0UO4C\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\abelo.DESKTOP-AJ0UO4C\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.helm-path.mac": "/Users/abeldutra/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false,
+    "dart": true
+  },
+  "terminal.integrated.fontFamily": "Fira Code",
+  "workbench.colorTheme": "Dracula",
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "dart.debugExternalPackageLibraries": true,
+  "svg.preview.mode": "svg",
+  "powermode.enabled": true,
+  "powermode.enableShake": false,
+  "powermode.maxExplosions": 1,
+  "powermode.enableStatusBarComboTimer": false,
+  "powermode.enableStatusBarComboCounter": false,
+  "explorer.confirmDragAndDrop": false,
+  "dart.flutterSdkPath": "/Users/abeldutra/development/flutter",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "react-native-tools.showUserTips": false,
+  "powermode.combo.location": "statusbar",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.customExplosions": [
+    "https://static.wikia.nocookie.net/oidarcn/images/7/78/Pika.gif/revision/latest?cb=20160720220827"
+  ],
+  "powermode.explosions.backgroundMode": "image",
+  "powermode.explosions.customCss": {
+    "transform": "scale(1)",
+    "opacity": "0.8",
+    "top": "-10px",
+    "height": "35px",
+    "z-index": 1,
+    "margin-left": "5px"
+  },
+  "explorer.confirmDelete": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "go.toolsManagement.autoUpdate": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "[java]": {
+    "editor.renderFinalNewline": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  "editor.formatOnSave": true,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\abelo\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cmake.configureOnOpen": true,
+  "json.schemas": [],
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editorAssociations": {
+    "*.sql": "default"
+  },
+  "workbench.productIconTheme": "fluent-icons"
 }
